@@ -1,26 +1,18 @@
 # LLM Project
 
-This file uses groq LLM to summarize contents of various files (specifically jpgs, htmls, texts, pdfs, websites)
- 
-***To use this program input in terminal:***
+This script uses the Groq LLM to summarize contents of various files, including `.jpg`, `.html`, `.txt`, `.pdf`, and websites.
 
+---
 
- FOR HTML FILE:
-$ python3 docsum.py docs/news-mx.html
+## 🔧 How to Use
 
+In the terminal, run the following commands depending on the input file type:
 
- FOR TEXT FILE:
-$ python3 docsum.py docs/constitution-mx.txt
+### 📄 HTML File
 
+```bash
+python3 docsum.py docs/news-mx.html
 
- FOR PDF:
-$ python3 docsum.py docs/research_paper.pdf
-
-
- FOR WEBSITE:
-$ python3 docsum.py https://elpais.com/us/
-
-
- FOR JPG:
-$ python3 docsum.py https://www.cmc.edu/sites/default/files/about/images/20170213-cube.jpg
-
+File Type: HTML  
+Summary:  
+The article discusses recent political developments in Mexico, highlighting key reforms and public response.
